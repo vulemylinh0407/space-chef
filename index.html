@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+	<title>Site name | Page name</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- universal header/nav stuff should go here -->
+
+	</header>
+
+	<main>
+
+		<div class="parallax">
+
+		<div class="parallax-layer" data-speed="0.15">
+ 			<img class="background" src="img/big-art.jpg">
+ 		</div>
+
+		<div class="parallax-layer" data-speed="0.1">
+			<img class="character" src="img/Character.png">
+		</div>
+
+		<div class="parallax-layer big-title-text" data-speed="0.2">
+			<p class="coming-soon"> COMING SOON </p>
+			<h1 class="big-title">SPACE CHEFS <br> FROM SPACE</h1>
+		</div>
+
+		<div class="parallax-layer fixed">
+			<img class="green" src="img/green.png">
+		</div>
+
+		<div class="parallax-layer fixed">
+			<h2 class="title">STORYLINE</h2>
+			<p class="storyline-description">A troupe of alien chefs travel the galaxy, cooking food for those who will have them. The only problem is they don't know how to cook!</p>
+			<p class="storyline-description">Unhappy with their inability to cook, the alien's manager tells them to retrieve a secret recipe book full of the best recipes located on a planet known as Earth.</p>
+			<p class="storyline-description">More specifically, the secret recipe book is located on a small farm and guarded by its two residents, file names: G-Ma and G-Pa. They are considered to be no threat to the mission.</p>
+			<p class="storyline-description">To limit escape, the aliens create a plan to abduct the human's home and move it in the middle of their cornfield. Little did the alien's know, someone had been listening to them the whole time and they were ready for their arrival.</p>
+		</div>
+
+		</div>
+
+		<!-- partial:index.partial.html -->
+		<div class="play-backdrop"></div>
+		<div class="play-button">
+		  <svg class="play-circles" viewBox="0 0 152 152">
+		    <circle class="play-circle-01" fill="none" stroke="black" stroke-width="3" stroke-dasharray="343 343" cx="76" cy="76" r="72.7"/>
+		    <circle class="play-circle-02" fill="none" stroke="black" stroke-width="3" stroke-dasharray="309 309" cx="76" cy="76" r="65.5"/>
+		  </svg>
+		  <div class="play-perspective">
+		    <button class="play-close"></button>
+		    <div class="play-triangle">
+		      <div class="play-video">
+		        <iframe width="600" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- partial -->
+		  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+
+ 		<div class="container">
+			<h2 class="character-title">CHARACTERS</h2>
+		</div>
+
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img/G-Ma.png" style="width:35%">
+  <div class="text">
+Lorem ipsum: dolor sit amet, consectetur:  adipiscing elit incididunt: ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+Lorem ipsum: dolor sit amet, consectetur:  adipiscing elit incididunt: ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+	</main>
+
+	<footer>
+		<!-- universal footer stuff should go here -->
+
+	</footer>
+
+	<script src="scripts.js"></script>
+
+</body>
